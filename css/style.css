@@ -1,0 +1,107 @@
+body {
+  background-color: #e4f2b8;
+
+position: absolute;
+  top: 40%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+.section {
+  background: #0f0f0f;
+  font-family: Garamond;
+}
+
+#title{
+  background: #fff4c9;
+  text-align: center;
+  color: Darkblue;
+  font-family: 'Impact';
+  font-size: 40px;
+}
+
+#gallery{
+  background: #888888;
+}
+
+#refresh{
+  background: #444;
+}
+
+.cat_pic:hover {
+    -ms-transform: scale(2.3,2.3);
+    -webkit-transform: scale(2.3,2.3);
+    transform: scale(2.3,2.3);
+    transition: .5s ease-in-out;
+
+}
+.cat_pic {
+  z-index: = 1000;
+  -webkit-transition: -webkit-transform .5s ease-in-out;
+  transition: transform .5s ease-in-out;
+}
+
+#chart {
+  float: left;
+  /*padding: 0px 0px 0px 0px;*/
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin-left: 25px;
+  margin-right: 52px;
+  margin-top: 25px;
+  min-width: 200px;
+  max-width: 800px;
+
+  z-index: 200;
+}
+
+canvas {
+
+  float: left;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+#player1 {
+  float: left;
+  position: relative;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 25px;
+}
+
+#player2 {
+  float: right;
+  position: relative;
+  margin-left: 75px;
+  margin-right: 25px;
+  margin-top: 25px;
+}
+#cats {
+
+}
+#reset {
+  position: relative;
+  border-radius: 15%;  
+  margin-left: auto;
+  margin-right: auto;
+  font-family: garamond;
+  text-align: center;
+  background-color: #fff4b8;
+  font-size: 35px;
+}
+p {
+  font-family: garamond;
+  text-align: center;
+  color: #fff4b8;
+}
+
+#credits{
+  color: black;
+  font-family: serif;
+  font-size: 30px;
+}
